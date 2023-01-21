@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background-image: linear-gradient(#eda302, white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    opacity: 0.9;
+
+}
+
+.caption {
+    color: #382807;
+    font-weight: 600;
+}
+
+.clock-image-conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.clock-image {
+    height: 100px;
+    margin: 10px;
+}
+
+.timer-para {
+    color: #403f3e;
+    font-size: 40px;
+}
+
+.timer-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer-span {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.quote-container {
+    border: 1px solid;
+    border-color: #f57607;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 40px 5px #f57607;
+    margin-top: 20px;
+}
+
+.input-text {
+    border-radius: 5px;
+    border-color: #9aa5b1;
+}
+
+.result {
+    color: #3e4c59;
+}
+
+.submit-button {
+    background-color: #eda302;
+    border: none;
+    margin-right: 20px;
+}
+
+.reset-button {
+    background-color: #9c8e83;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
